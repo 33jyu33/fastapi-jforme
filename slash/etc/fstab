@@ -1,0 +1,3 @@
+none            /drives   cygdrive    binary,auto,user,posix=0   0   0
+C:/projects/jforme            /home/mobaxterm   ntfs    binary,auto,user,posix=0           0   0
+C:/projects/jforme            /home/wldb1   ntfs    binary,auto,user,posix=0           0   0

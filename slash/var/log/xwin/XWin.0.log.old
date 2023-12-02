@@ -1,0 +1,70 @@
+Welcome to the XWin X Server
+Vendor: Moba/X
+Release: 1.21.1.3
+OS: Windows 10  [Windows NT 10.0 build 22621] x86-on-x64
+Package: version  built 2022-03-26
+
+XWin was started with the following command line:
+
+C:\projects\jforme\slash\bin\XWin_MobaX.exe -silent-dup-error 
+ -notrayicon -nolisten inet6 -hostintitle +bs -clipboard -nowgl 
+ -multiwindow -noreset :0 
+
+ddxProcessArgument - Initializing default screens
+winInitializeScreenDefaults - primary monitor w 1920 h 1080
+(==) FontPath set to /usr/share/fonts/misc/
+(==) FontPath set to C:\projects\jforme\slash/usr/share/fonts/misc/
+(==) FontPath set to /usr/share/fonts/TTF/
+(==) FontPath set to C:\projects\jforme\slash/usr/share/fonts/TTF/
+(==) FontPath set to /usr/share/fonts/OTF/
+(==) FontPath set to C:\projects\jforme\slash/usr/share/fonts/OTF/
+(==) FontPath set to /usr/share/fonts/Type1/
+(==) FontPath set to C:\projects\jforme\slash/usr/share/fonts/Type1/
+(==) FontPath set to /usr/share/fonts/100dpi/
+(==) FontPath set to C:\projects\jforme\slash/usr/share/fonts/100dpi/
+(==) FontPath set to /usr/share/fonts/75dpi/
+(==) FontPath set to C:\projects\jforme\slash/usr/share/fonts/75dpi/
+(==) FontPath set to "C:\projects\jforme\slash/usr/share/fonts/misc/,C:\projects\jforme\slash/usr/share/fonts/TTF/,C:\projects\jforme\slash/usr/share/fonts/OTF/,C:\projects\jforme\slash/usr/share/fonts/Type1/,C:\projects\jforme\slash/usr/share/fonts/100dpi/,C:\projects\jforme\slash/usr/share/fonts/75dpi/"
+(==) Setting XKEYSYMDB path to XKEYSYMDB=C:\projects\jforme\slash\usr\share\X11\XKeysymDB
+(==) Setting XERRORDB path to XERRORDB=C:\projects\jforme\slash\usr\share\X11\XErrorDB
+(==) Setting XLOCALEDIR path to XLOCALEDIR=C:\projects\jforme\slash\usr\share\X11\locale
+(==) Logfile set to "C:\projects\jforme\slash\var\log\xwin\XWin.0.log"
+(==) Setting XKB path to C:\projects\jforme\slash\usr\share\X11\xkb
+[438808.687] (--) Windows reports only 2 mouse buttons, defaulting to -emulate3buttons
+[438808.703] winUpdateDpi - primary monitor native DPI x 96 y 96
+[438808.703] winDetectSupportedEngines - RemoteSession: no
+[438808.750] winDetectSupportedEngines - DirectDraw4 installed, allowing ShadowDDNL
+[438808.765] winDetectSupportedEngines - Returning, supported engines 00000005
+[438808.765] winSetEngine - Multi Window or Rootless => ShadowGDI
+[438808.765] winScreenInit - Using Windows display depth of 32 bits per pixel
+[438808.765] winAllocateFBShadowGDI - Creating DIB with width: 1920 height: 1080 depth: 32
+[438808.765] winFinishScreenInitFB - Masks: 00ff0000 0000ff00 000000ff
+[438808.765] winInitVisualsShadowGDI - Masks 00ff0000 0000ff00 000000ff BPRGB 8 d 24 bpp 32
+[438808.781] (II) IGLX: Loaded and initialized swrast
+[438808.781] (II) GLX: Initialized DRISWRAST GL provider for screen 0
+[438808.828] (II) [XKB]  "C:\projects\jforme\slash\var\log\xwin\xkb_a23008" file successfully created.
+[438808.828] (II) [XKB]  Launching xkbcomp.exe with the following command:
+[438808.828] (II) [XKB]  "C:\projects\jforme\slash\bin\xkbcomp_w32.exe" -w 1 "-RC:\projects\jforme\slash\usr\share\X11\xkb" -xkm "C:\projects\jforme\slash\var\log\xwin\xkb_a23008" -em1 "The XKEYBOARD keymap compiler (xkbcomp) reports:" -emp "> " -eml "Errors from xkbcomp are not fatal to the X server" "C:\projects\jforme\slash\var\log\xwin\server-0.xkm"
+[438808.828] (II) [XKB]  LaunchXkbComp(II) :  succeeded
+[438808.906] (II) [XKB]  Successfully created keyboard mapping file "C:\projects\jforme\slash\var\log\xwin\xkb_a23008"
+[438808.921] winPointerWarpCursor - Discarding first warp: 960 540
+[438808.921] (--) 2 mouse buttons found
+[438808.921] (--) Setting autorepeat to delay=500, rate=31
+[438808.921] (--) Windows keyboard layout: "00000412" (00000412) "Korean", type 8
+[438808.921] (--) Found matching XKB configuration "Korean"
+[438808.921] (--) Model = "kr106" Layout = "kr" Variant = "none" Options = "none"
+[438808.921] Rules = "base" Model = "kr106" Layout = "kr" Variant = "none" Options = "none"
+[438808.921] (II) [XKB]  "C:\projects\jforme\slash\var\log\xwin\xkb_a23008" file successfully created.
+[438808.921] (II) [XKB]  Launching xkbcomp.exe with the following command:
+[438808.921] (II) [XKB]  "C:\projects\jforme\slash\bin\xkbcomp_w32.exe" -w 1 "-RC:\projects\jforme\slash\usr\share\X11\xkb" -xkm "C:\projects\jforme\slash\var\log\xwin\xkb_a23008" -em1 "The XKEYBOARD keymap compiler (xkbcomp) reports:" -emp "> " -eml "Errors from xkbcomp are not fatal to the X server" "C:\projects\jforme\slash\var\log\xwin\server-0.xkm"
+[438808.921] (II) [XKB]  LaunchXkbComp(II) :  succeeded
+[438809.000] (II) [XKB]  Successfully created keyboard mapping file "C:\projects\jforme\slash\var\log\xwin\xkb_a23008"
+[438809.000] winMultiWindowXMsgProc - DISPLAY=127.0.0.1:0.0
+[438809.000] winInitMultiWindowWM - DISPLAY=127.0.0.1:0.0
+[438809.000] winInitMultiWindowWM - xcb_connect () returned and successfully opened the display.
+[438809.000] winProcEstablishConnection - winInitClipboard returned.
+[438809.000] winClipboardThreadProc - DISPLAY=127.0.0.1:0.0
+[438809.000] winMultiWindowXMsgProc - xcb_connect() returned and successfully opened the display.
+[438809.000] winClipboardProc - xcb_connect () returned and successfully opened the display.
+[438809.015] Using Composite redirection
+[438814.093] winWindowProc - WM_EXITSIZEMOVE
